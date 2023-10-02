@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/app/Components/Home/Home.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/Components/Home/Home.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/Components/Menu/Menu.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/Components/Menu/Menu.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/Components/QuemSomos/QuemSomos.js" charset="UTF-8" />
+  </component>
+</project>
