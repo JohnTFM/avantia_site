@@ -1,1 +1,7 @@
  
+.menu{
+    width: 100%;
+    background-color: #000000;
+    height:100px ;
+    padding-left: 100px;
+}
