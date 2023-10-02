@@ -1,5 +1,6 @@
-.logoTypeContainer{
+.logoType{
     display: flex;
     flex-direction: row;
     width: 310px;
+    padding-left: 100px;
 }

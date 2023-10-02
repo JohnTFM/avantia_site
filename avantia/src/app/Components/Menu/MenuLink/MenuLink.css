@@ -1,0 +1,22 @@
+
+.menuLink{
+
+    color: white;
+    font-family: Kollektif,serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    border: 1px solid red;
+    text-align: center;
+    display: flex;
+}
+
+.menuLink a{
+    text-align: center;
+    color: white;
+}
+
+.menuIcon{
+    display: none;
+}

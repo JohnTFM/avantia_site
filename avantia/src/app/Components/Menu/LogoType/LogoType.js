@@ -1,7 +1,7 @@
 import './LogoType.css'
 export default  function LogoType(){
 
-    return <div className={"logoTypeContainer"}>
+    return <div className={"logoType"}>
 
         <svg width="91" height="94" viewBox="0 0 91 94" fill="none" xmlns="http://www.w3.org/2000/svg">
             <mask id="mask0_18_2" style={{maskType:"luminance"}} maskUnits="userSpaceOnUse" x="14" y="15" width="63" height="64">
