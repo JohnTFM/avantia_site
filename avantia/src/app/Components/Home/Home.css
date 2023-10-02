@@ -1,4 +1,32 @@
-h1{
-    color : blue;
+.HomeBackGround{
+    width: 100%;
+    height: 1950px;
+    background: #101010;
+}
+.Mov-Text{
+    display: flex;
+    flex-direction: column;
+    
+}
+.Text-Ideias{
+    width: 683px;
+    height: 150px;
+    color: #FFF;
+    font-family: Kollektif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 50px;
+    margin-top:200px ;
+}
+.text-Realidade{
+    color: #FFF;
+    font-family: Kollektif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    padding-left: 50px;   
 }
 
