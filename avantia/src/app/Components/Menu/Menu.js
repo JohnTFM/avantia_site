@@ -1,7 +1,8 @@
+
 import './Menu.css'
 import LogoType from "@/app/Components/Menu/LogoType/LogoType";
 import Link from "next/link";
-import MenuLink from "@/app/Components/Menu/MenuLink/MenuLink";
+import MenuLinkClient from "@/app/Components/Menu/MenuLink/MenuLink.client";
 
 export default function Menu(){
     return <header className={"menu"}>
@@ -9,9 +10,9 @@ export default function Menu(){
     <LogoType></LogoType>
         </div>
         <div className={"links-group "}>
-            <MenuLink name={"Home"}></MenuLink>
-            <MenuLink name={"Serviços"}></MenuLink>
-            <MenuLink name={"Contatos"}></MenuLink>
+            <MenuLinkClient name={"Home"}></MenuLinkClient>
+            <MenuLinkClient name={"Serviços"}></MenuLinkClient>
+            <MenuLinkClient name={"Contatos"}></MenuLinkClient>
         </div>
     </header>
 }

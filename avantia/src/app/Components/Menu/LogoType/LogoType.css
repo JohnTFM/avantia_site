@@ -3,4 +3,28 @@
     flex-direction: row;
     width: 310px;
     padding-left: 100px;
+
+
+}
+
+.bola-avantia-logo{
+    animation-name: girar;
+    animation-duration: 15s;
+    animation-delay: 0s;
+    animation-direction: normal;
+
+    animation-iteration-count: infinite;
+}
+
+@keyframes girar {
+    /* Início da animação */
+    from {
+        /* Rotação inicial do elemento */
+        transform: rotate(0deg);
+    }
+    /* Fim da animação */
+    to {
+        /* Rotação final do elemento */
+        transform: rotate(360deg);
+    }
 }
