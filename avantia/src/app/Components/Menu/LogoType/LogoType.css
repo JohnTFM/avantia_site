@@ -1,13 +1,15 @@
 .logoType{
     display: flex;
     flex-direction: row;
-    width: 310px;
+    height: 100px;
+
     padding-left: 100px;
-
-
 }
 
+
 .bola-avantia-logo{
+    top: 5px;
+    position: relative;
     animation-name: girar;
     animation-duration: 15s;
     animation-delay: 0s;

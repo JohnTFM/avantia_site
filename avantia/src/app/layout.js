@@ -1,4 +1,5 @@
 import './global.css'
+import Menu from "@/app/Components/Menu/Menu";
 
 export const metadata = {
   title: 'Next.js',
@@ -8,11 +9,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
 
  return (
-    <html   lang="en">
+    <html   lang="pt">
       <body style={{
           margin : 0,
           padding : 0
-      }} >{children}</body>
+      }}>
+      <Menu></Menu>
+      {children}
+      </body>
     </html>
   )
 }
