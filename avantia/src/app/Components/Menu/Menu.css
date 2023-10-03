@@ -1,9 +1,7 @@
 
 .menu{
     width: 100%;
-    background-color: #000000;
-    height:100px ;
-    display: flex;
+    background: linear-gradient(180deg, #000 0%, #000 0.01%, #101010 100%);    display: flex;
 
 }
 .logoTypeContainer{
