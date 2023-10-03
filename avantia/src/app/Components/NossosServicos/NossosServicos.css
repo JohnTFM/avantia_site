@@ -1,0 +1,21 @@
+.nossos-servicos-sec{
+    border-top: #FFFFFF  dotted 1px;
+    height: 3591px;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.ns-title{
+    color: #F4F4F4;
+    font-family: Kollektif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 150px;
+}

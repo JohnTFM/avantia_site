@@ -1,0 +1,52 @@
+.servico-card{
+    width: 100%;
+    max-width: 1280px;
+    height: 463px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.informative-container{
+    padding-top: 15px;
+
+}
+.servico-card img{
+    width: 300px;
+    height: 300px;
+}
+
+.sc-titulo{
+    color: #FFF;
+    font-family: Kollektif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sc-avantia{
+    color: #FFF;
+    font-family: Kollektif;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.informativeP{
+    width: 500px;
+    height: 341px;
+    color: white;
+    font-family: Kollektif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+    line-height: 28px;
+}
+
+.informativeP span{
+    font-size: 16px;
+
+}
