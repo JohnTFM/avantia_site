@@ -1,0 +1,48 @@
+.BackGroundQmSomos{
+    background-color: black;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Alinhar-Tudo{
+    display: flex;
+    margin-top: 40px;   
+}
+
+.QuemSomos{
+    width: 572px;
+    height: 86px;
+    color: #F4F4F4;
+    font-family: Kollektif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
+.Circuitos{
+    position: relative;
+
+    width: 500px;
+    height: 500px;
+}
+.TextqmSom{
+    width: 611px;
+    height: 323px;
+    flex-shrink: 0;
+    color: #F4F4F4;
+    font-family: Kollektif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.alinharDoisTextos{
+    display: flex;
+    flex-direction: column;
+}
+.GloboEdit{
+    width: 500px;
+    height: 500px;
+
+}

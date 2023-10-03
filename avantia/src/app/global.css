@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Kollektif';
     src: url("../../public/Kollektif/Kollektif.ttf");
-    src: url("../../public/Kollektif/Kollektif-Bold.ttf");
-    src: url("../../public/Kollektif/Kollektif-BoldItalic.ttf");
-    src: url("../../public/Kollektif/Kollektif-Italic.ttf");
+
+  
+
     font-weight: auto;
     font-style: normal;
 }
@@ -13,3 +13,4 @@
     text-decoration: inherit;
 
 }
+
