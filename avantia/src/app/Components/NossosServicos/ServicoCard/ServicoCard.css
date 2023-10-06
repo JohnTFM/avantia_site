@@ -4,15 +4,20 @@
     height: 463px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 50px;
-}
-.informative-container{
-    padding-top: 15px;
 
 }
+.informative-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 .servico-card img{
-    width: 300px;
-    height: 300px;
+    height: 80%;
 }
 
 .sc-titulo{
@@ -35,7 +40,6 @@
 
 .informativeP{
     width: 500px;
-    height: 341px;
     color: white;
     font-family: Kollektif;
     font-size: 22px;

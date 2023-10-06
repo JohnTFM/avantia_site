@@ -10,12 +10,13 @@ export default function  NossosServicos(){
         </ServicoCard>
         <ServicoCard caminhoImg={"/ns-images/institucional.png"} titulo={"Institucional"} reverse={true}>
             Website que mostra quem você ou sua empresa é, agrega valor, traz confiança e denota profissionalismo da entidade detentora do site.
-            <br/><span>Exemplos:home pages de universidades, sites de escritório de advocacia, sites de empresas prestadoras de serviços diversos, etc...</span>
+            <br/><span>Exemplos: home pages de universidades, sites de escritório de advocacia, sites de empresas prestadoras de serviços diversos, etc...</span>
         </ServicoCard>
 
         <ServicoCard caminhoImg={"/ns-images/mobile.png"} titulo={"Mobile"}>
-            Mobile MobileMobil eMobileMob ileMobileMob ileMobi leMobileM obileMo bileMo bileMobileM obile MobileMobil eMobile Mobile Mobile
-            <br/><span>Exemplos: Mobile Mobile MobileMobile aa Mobilea Mobile.</span>
+            Soluções que consistem em um software pensado para funcionar no ambiente mobile.
+            Aqui, sua tecnologia estará na palma da mão do seu cliente!
+            <br/><span>Exemplos: ifood, Uber, sites responsivos, etc...</span>
         </ServicoCard>
     </section>
 }

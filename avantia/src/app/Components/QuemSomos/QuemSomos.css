@@ -7,11 +7,11 @@
 .Alinhar-Tudo{
     display: flex;
     width: 100%;
-    justify-content: space-between;
-    margin-top: 50px;
+    justify-content: space-evenly;
 }
 
 .QuemSomos{
+    margin-top: 60px;
     width: 572px;
     height: 86px;
     color: #F4F4F4;
@@ -21,12 +21,7 @@
     font-weight: 700;
     line-height: normal;    
 }
-.Circuitos{
 
-    position: relative;
-    width: 500px;
-    height: 500px;
-}
 .TextqmSom{
     width: 611px;
     height: 323px;
@@ -44,6 +39,5 @@
 }
 .GloboEdit{
     width: 500px;
-    height: 500px;
 
 }

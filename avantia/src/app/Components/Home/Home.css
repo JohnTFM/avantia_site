@@ -38,10 +38,9 @@
     
 }
 .LogoHome{
-    width: 600px;
-    height: 600px;
-
-
+    width: 100%;
+    border-top: 0;
+    border-bottom: 0;
 }
 .QroAgir{
     width: 190px;

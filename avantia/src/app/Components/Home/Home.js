@@ -5,8 +5,6 @@ import '../Home/Home.css'
 
 
 export default function Home() {
-    
-
 
 
         return <section id={"Home"} className='HomeBackGround'>
@@ -18,7 +16,8 @@ export default function Home() {
                         </button>
                     </div>                
                     <div className='Mov-logoAvantia'>
-                            <img src='/imagens/logo.png' className='LogoHome'></img>
+                            <img src='/imagens/avantianegro.svg' className='LogoHome'></img>
+
                     </div>
            </section>
 
