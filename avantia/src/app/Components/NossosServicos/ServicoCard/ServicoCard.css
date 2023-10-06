@@ -1,12 +1,13 @@
 .servico-card{
     width: 100%;
     max-width: 1280px;
-    height: 463px;
+    height: 480px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
-    transition: opacity 1s;
+    transition: opacity 1.5s,top 1.5s;
+    position: relative;
 }
 
 

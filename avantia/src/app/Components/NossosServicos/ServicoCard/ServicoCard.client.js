@@ -5,35 +5,40 @@ import {useEffect, useRef, useState} from "react";
 export default function ServicoCardClient({children,caminhoImg,titulo,reverse}){
 
     const [show,setShow] = useState(false);
+    const [volta,setVolta] =useState(false);
     const elementRef = useRef(null);
 
     useEffect(() => {
-        const options = {
+        const entryOptions = {
             root: null,
-            rootMargin: '0px',
-            threshold: 0.5,
+            rootMargin: "0px",
+            threshold: 0.25, // Alterado para 0.25 para a entrada (0 -> 1)
         };
 
-        const observer = new IntersectionObserver((entries) => {
+
+        const entryObserver = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
                 if (entry.isIntersecting) {
+                    console.log("Entrou")
                     // O componente está visível na tela, ative a animação
                     setShow(true);
-                } else {
-                    // O componente não está visível na tela, defina a opacidade de volta para 0
+                    setVolta(true)
+                }
+                if (!entry.isIntersecting) {
+                    console.log("Saiu")
+                    // O componente está visível na tela, ative a animação
                     setShow(false);
                 }
             });
-        }, options);
+        }, entryOptions);
+
 
         if (elementRef.current) {
-            observer.observe(elementRef.current);
+            entryObserver.observe(elementRef.current);
         }
-
-        return () => {
-            observer.disconnect();
-        };
+        
     }, []);
+
 
 
 
@@ -42,7 +47,8 @@ export default function ServicoCardClient({children,caminhoImg,titulo,reverse}){
 
         className={"servico-card"}  style={{
             flexDirection:reverse?"row-reverse" : "row" ,
-            opacity: show?"1" : "0"
+            opacity: show?"1" : "0",
+        top: volta?"0px": "200px"
     }}>
         <img  src={caminhoImg}/>
         <div className={"informative-container"}>
