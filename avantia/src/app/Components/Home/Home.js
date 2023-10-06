@@ -17,7 +17,6 @@ export default function Home() {
                     </div>                
                     <div className='Mov-logoAvantia'>
                             <img src='/imagens/avantianegro.svg' className='LogoHome'></img>
-
                     </div>
            </section>
 

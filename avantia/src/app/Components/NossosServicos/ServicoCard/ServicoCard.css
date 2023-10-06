@@ -6,8 +6,11 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
-
+    transition: opacity 1s;
 }
+
+
+
 .informative-container{
     height: 100%;
     display: flex;
