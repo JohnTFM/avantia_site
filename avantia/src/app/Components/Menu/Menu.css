@@ -20,3 +20,14 @@
 
     margin-right: 50px ;
 }
+@media (max-width: 1200px) {
+    .logoTypeContainer{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+ .links-group{
+     display: none;
+ }
+}

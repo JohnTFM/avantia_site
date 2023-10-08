@@ -3,6 +3,7 @@ import './EntreEmContato.css'
 import InputContatoClient from "@/app/Components/EntreEmContato/InputContato.client";
 import {Formatador} from "@/app/Util/Formatador";
 import {useState} from "react";
+import axios from "axios";
 
 export default function EntreEmContatoClient(){
     const [form,setForm] = useState({
@@ -19,14 +20,29 @@ export default function EntreEmContatoClient(){
                 [field] : val
             }
         });
-        console.log(form)
+
 
     }
 
-function enviar(e){
+async function enviar(e){
     e.preventDefault();
 
-    alert(form["como podemos ajudar"])
+    const x = {
+        ...form,
+        contexto : form["como podemos ajudar"]
+    }
+
+    const resp = axios.post("http://localhost:3000/api/mail",x).then(
+        (r)=>{
+           setForm({nome : "",
+               email: "",
+               telefone: "",
+               "como podemos ajudar": ""})
+        }
+    ).catch(err=>{
+        alert(err.data);
+    });
+
 }
 
 
@@ -34,12 +50,12 @@ function enviar(e){
         <header className={"emc-title"} >Entre em contato conosco!</header>
         <div className={"ideia-redes-container"}>
 
-            <div >
+            <div className={"centralizada-mobile"}>
                 <p className={"upper-title"}  >Nos diga a sua ideia</p>
                 <div style={
                     {
                         height: `5px`,
-                        width : `400px`,
+                        width : `380px`,
                         backgroundColor: "white",
                         borderRadius: "15px",
                         marginBottom: "30px"
@@ -47,28 +63,22 @@ function enviar(e){
                 }></div>
                 <div className={"ideia"}>
                     <InputContatoClient setFunction={setFormGeneric} label={"*Nome"} tipo={"email"}/>
-
                     <InputContatoClient setFunction={setFormGeneric} label={"*Email"} tipo={"email"}/>
                     <InputContatoClient setFunction={setFormGeneric} label={"*Telefone"} tipo={"tel"}/>
                     <InputContatoClient setFunction={setFormGeneric} label={"*Como podemos ajudar?"} tipo={"text-area"}/>
-                    <button className={"enviar-contato"} onClick={enviar} >
-
+                    <button className={"enviar-contato"} onClick={enviar}>
                         Enviar
                     </button>
 
                 </div>
             </div>
 
-            <div style={{
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "flex-end"
-            }}>
-                <p className={"upper-title"}  style={{textAlign: "end"}} >Contatos</p>
+            <div   className={"centralizada-mobile2"} >
+                <p className={"upper-title2"}   >Contatos</p>
                 <div style={
                     {
                         height: `5px`,
-                        width : `400px`,
+                        width : `380px`,
                         backgroundColor: "white",
                         borderRadius: "15px",
                         marginBottom: "30px"

@@ -1,6 +1,6 @@
 .HomeBackGround{
     width: 100%;
-    height: 800px;
+    height: 600px;
     background: #101010;
     display: flex;
     justify-content: space-around;
@@ -11,6 +11,9 @@
     margin-left: 110px;
     
 }
+
+
+
 
 .Text-Ideias{
     width: 683px;
@@ -67,3 +70,42 @@
 .QroAgir:hover{
     background-color: black;
 }
+
+@media(max-width: 1200px) {
+
+    .Mov-Text{
+        padding: 0;
+        margin: 0;
+        width: 400px;
+        height: 500px;
+        align-items: center;
+    }
+
+    .LogoHome{
+        width: 288px;
+        height: 288px;
+    }
+
+    .HomeBackGround{
+        height: 600px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+.QroAgir{
+    margin-top: 43px;
+}
+    .Text-Ideias{
+        height: 90px;
+        width: 100%;
+        font-size: 40px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .text-Realidade{
+        margin-top: 20px;
+        font-size: 18px;
+    }
+}
+

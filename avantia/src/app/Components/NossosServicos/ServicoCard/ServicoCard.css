@@ -58,3 +58,56 @@
     font-size: 16px;
 
 }
+.reverso{
+    flex-direction: row-reverse;
+}
+
+.nao-reverso{
+    flex-direction: row;
+}
+
+@media (max-width: 1200px) {
+
+    .informativeP{
+
+        width: 349px;
+        height: 181px;
+        color: #F4F4F4;
+        font-family: Kollektif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+
+    }
+
+    .informativeP span{
+        color: #F4F4F4;
+        font-family: Kollektif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .sc-avantia{
+    font-size: 30px;
+    }
+    .sc-titulo{
+        font-size: 30px;
+    }
+
+    .reverso{
+        flex-direction: column;
+
+    }
+    .nao-reverso{
+        flex-direction: column;
+    }
+
+    .servico-card img{
+        width: 200px;
+        height: 200px;
+    }
+
+
+}

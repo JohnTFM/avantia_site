@@ -19,3 +19,13 @@
     line-height: normal;
     margin-bottom: 150px;
 }
+
+@media (max-width: 1200px) {
+
+    .ns-title{
+        width: 230px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+}

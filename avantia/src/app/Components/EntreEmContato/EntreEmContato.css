@@ -26,6 +26,18 @@
     line-height: normal;
     margin-bottom: 5px;
 }
+
+.upper-title2{
+    color: #FFF;
+    font-family: Kollektif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 5px;
+    text-align: end;
+
+}
 .ideia-redes-container{
 
     display: flex;
@@ -33,7 +45,9 @@
     width: 1200px;
 
 }
-
+.sumir-mobile{
+    display: flex;
+}
 .ideia{
     padding: 50px;
     width: 400px;
@@ -149,4 +163,67 @@
 }
 .enviar-contato:hover{
     cursor: pointer;
+}
+
+.centralizada-mobile2{
+    display: flex;
+
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+@media (max-width: 1200px) {
+    .centralizada-mobile2{
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
+    .ideia-redes-container{
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+    }
+    .redes-container{
+
+    }
+    .sumir-mobile{
+        display: none;
+    }
+.emc-title{
+    font-size: 30px;
+}
+    .upper-title{
+        font-size: 25px;
+    }
+    .upper-title2{
+        font-size: 25px;
+
+        margin-top: 100px;
+    }
+    .ideia{
+        padding: 25px;
+        width: 300px;
+    }
+
+    .input-contato input{
+        width: 285px;
+        padding-left: 15px;
+    }
+    .input-contato textarea{
+        min-width: 285px;
+        max-width: 285px;
+        padding-left: 15px;
+    }
+    .centralizada-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .entre-em-contato-sec{
+        height: 1110px;
+    }
+
 }

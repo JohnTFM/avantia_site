@@ -45,8 +45,7 @@ export default function ServicoCardClient({children,caminhoImg,titulo,reverse}){
     return <div
         ref={elementRef}
 
-        className={"servico-card"}  style={{
-            flexDirection:reverse?"row-reverse" : "row" ,
+        className={`servico-card ${reverse? "reverso": "nao-reverso"}`}  style={{
             opacity: show?"1" : "0",
         top: volta?"0px": "200px"
     }}>
