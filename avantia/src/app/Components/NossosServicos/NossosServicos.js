@@ -18,5 +18,9 @@ export default function  NossosServicos(){
             Aqui, sua tecnologia estará na palma da mão do seu cliente!
             <br/><span>Exemplos: ifood, Uber, sites responsivos, etc...</span>
         </ServicoCardClient>
+
+        <ServicoCardClient caminhoImg={"ns-images/marketing.svg"} titulo={"Social"}>
+            Nossos serviços de mídias sociais são a chave para aumentar sua visibilidade online, conectar-se com seu público, construir sua marca e promover seus produtos ou serviços. Nossa equipe de especialistas oferece soluções personalizadas para atender às suas necessidades. Entre em contato conosco para impulsionar sua presença online e alcançar o sucesso!
+        </ServicoCardClient>
     </section>
 }
