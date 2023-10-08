@@ -5,7 +5,9 @@ export default function QuemSomos(){
     return(
         <section className='BackGroundQmSomos'>
             <div className='Alinhar-Tudo'>
-                    <div className='GloboDetalhe'> <img src='/imagens/GloboDel.png' className='GloboEdit'/></div>   
+                    <div className=' sumir-mobile'> <img src='/imagens/GloboDel.png' className='GloboEdit'/>
+                    </div>
+
                     <div className='alinharDoisTextos'>
                         <div className='QuemSomos'>Quem somos?</div>
                         <div className='TextqmSom'>A Avantia é uma empresa de tecnologia dedicada a trazer
@@ -13,6 +15,11 @@ export default function QuemSomos(){
                                                 Nossa equipe apaixonada, ágil e ambiociosa está pronta para encarar todo tipo 
                                                 de desafio e agregar cada vez mais valor ao mercado de software brasileiro.</div>
                     </div>
+
+                <div>
+                    <img src={"/imagens/globo.svg"} className={"GloboEditToMobile"}/>
+
+                </div>
             </div>
         </section>
     )

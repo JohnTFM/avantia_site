@@ -40,7 +40,7 @@ async function enviar(e){
                "como podemos ajudar": ""})
         }
     ).catch(err=>{
-        alert(err.data);
+        alert(err);
     });
 
 }
