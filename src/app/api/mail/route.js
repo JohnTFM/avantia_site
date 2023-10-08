@@ -31,8 +31,5 @@ console.log(emailData)
 
 
 
-    return new Response("OK!",{
-        status: 200
-
-    })
+    return NextResponse.json({funcionando: "OK"})
 }
