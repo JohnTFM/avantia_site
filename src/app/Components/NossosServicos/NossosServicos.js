@@ -2,7 +2,7 @@ import './NossosServicos.css'
 import ServicoCardClient from "@/app/Components/NossosServicos/ServicoCard/ServicoCard.client";
 
 export default function  NossosServicos(){
-    return <section className={"nossos-servicos-sec"}>
+    return <section className={"nossos-servicos-sec"} id={"Serviços"}>
         <span className={"ns-title"}>Nossos Serviços</span>
         <ServicoCardClient caminhoImg={"/ns-images/web_system.png"} titulo={"WebSystem"}>
             Sistemas Web, disponíveis 24h por dia, acessíveis por navegadores,  com sites que se adaptam ao formato do dispositivo! Aqui trazemos uma solução tecnológica para qualquer problema que você ou sua organização estiver passando.
