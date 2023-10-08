@@ -35,7 +35,7 @@ async function enviar(e){
     const resp = axios.post(`https://avantiasoftware.com/api/mail` ,x).then(
 
     ).catch(err=>{
-        alert(err);
+        console.log(err);
     });
     setForm({nome : "",
         email: "",
