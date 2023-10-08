@@ -3,7 +3,7 @@ import ServicoCardClient from "@/app/Components/NossosServicos/ServicoCard/Servi
 
 export default function  NossosServicos(){
     return <section className={"nossos-servicos-sec"}>
-        <span className={"ns-title"}>Nossos Servicos</span>
+        <span className={"ns-title"}>Nossos Serviços</span>
         <ServicoCardClient caminhoImg={"/ns-images/web_system.png"} titulo={"WebSystem"}>
             Sistemas Web, disponíveis 24h por dia, acessíveis por navegadores,  com sites que se adaptam ao formato do dispositivo! Aqui trazemos uma solução tecnológica para qualquer problema que você ou sua organização estiver passando.
             <br/><span>Exemplos: Sistema de Gerenciamento de Rifa, Sistema de Registro de Fazendas, Sistema de Tramitação de Processos Eletrônicos.</span>

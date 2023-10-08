@@ -32,7 +32,7 @@ async function enviar(e){
         contexto : form["como podemos ajudar"]
     }
 
-    const resp = axios.post(`http://avantiasoftware.com/api/mail` ,x).then(
+    const resp = axios.post(`https://avantiasoftware.com/api/mail` ,x).then(
 
     ).catch(err=>{
         alert(err);
