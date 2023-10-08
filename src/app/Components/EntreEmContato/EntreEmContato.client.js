@@ -32,16 +32,16 @@ async function enviar(e){
         contexto : form["como podemos ajudar"]
     }
 
-    const resp = axios.post("http://localhost:3000/api/mail",x).then(
-        (r)=>{
-           setForm({nome : "",
-               email: "",
-               telefone: "",
-               "como podemos ajudar": ""})
-        }
+    const resp = axios.post(`http://avantiasoftware.com/api/mail` ,x).then(
+
     ).catch(err=>{
         alert(err);
     });
+    setForm({nome : "",
+        email: "",
+        telefone: "",
+        "como podemos ajudar": ""})
+    alert("Enviado!")
 
 }
 
@@ -51,7 +51,7 @@ async function enviar(e){
         <div className={"ideia-redes-container"}>
 
             <div className={"centralizada-mobile"}>
-                <p className={"upper-title"}  >Nos diga a sua ideia</p>
+                <p className={"upper-title"} id={"contatos"} >Nos diga a sua ideia</p>
                 <div style={
                     {
                         height: `5px`,

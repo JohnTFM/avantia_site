@@ -76,7 +76,7 @@
     .Mov-Text{
         padding: 0;
         margin: 0;
-        width: 400px;
+        width: 380px;
         height: 500px;
         align-items: center;
     }
@@ -97,7 +97,7 @@
     .Text-Ideias{
         height: 90px;
         width: 100%;
-        font-size: 40px;
+        font-size: 38px;
         margin: 0;
         padding: 0;
         text-align: center;
