@@ -8,7 +8,7 @@ export default function Home() {
                     <div className='Mov-Text'>
                         <div className='Text-Ideias'>Você tem ideias para o seu negócio?</div>
                         <div className='text-Realidade'>Então nos deixe transformá-las em realidade!</div>
-                        <button className='QroAgir'> <p className='MovQroAgir'>Quero Agir!</p> 
+                        <button className='QroAgir'> <a className={"no-decoration"} href={"/#contatos"}><p className='MovQroAgir'>Quero Agir!</p> </a>
                             <img src='/imagens/Vector.png' className='ImgVector'/>
                         </button>
                     </div>                
