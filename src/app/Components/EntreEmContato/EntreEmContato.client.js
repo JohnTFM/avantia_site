@@ -46,7 +46,7 @@ async function enviar(e){
 }
 
 
-    return <section className={"entre-em-contato-sec"}>
+    return <section className={"entre-em-contato-sec"} id={"Contatos"}>
         <header className={"emc-title"} >Entre em contato conosco!</header>
         <div className={"ideia-redes-container"}>
 

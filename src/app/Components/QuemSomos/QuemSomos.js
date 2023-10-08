@@ -3,7 +3,7 @@ import '../QuemSomos/QuemSomos.css'
 export default function QuemSomos(){
 
     return(
-        <section className='BackGroundQmSomos'>
+        <section className='BackGroundQmSomos' id={"Quemsomos"}>
             <div className='Alinhar-Tudo'>
                     <div className=' sumir-mobile'> <img src='/imagens/GloboDel.png' className='GloboEdit'/>
                     </div>
