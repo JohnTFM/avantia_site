@@ -1,0 +1,31 @@
+.nossos-servicos-sec{
+    height: 100%;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+.ns-title{
+    color: #F4F4F4;
+    font-family: Kollektif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 150px;
+}
+
+@media (max-width: 1200px) {
+
+    .ns-title{
+        width: 230px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+}

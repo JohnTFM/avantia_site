@@ -1,0 +1,113 @@
+.servico-card{
+    width: 100%;
+    max-width: 1280px;
+    height: 480px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    transition: opacity 1.5s,top 1.5s;
+    position: relative;
+}
+
+
+
+.informative-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.servico-card img{
+    height: 80%;
+}
+
+.sc-titulo{
+    color: #FFF;
+    font-family: Kollektif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sc-avantia{
+    color: #FFF;
+    font-family: Kollektif;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.informativeP{
+    width: 500px;
+    color: white;
+    font-family: Kollektif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+    line-height: 28px;
+}
+
+.informativeP span{
+    font-size: 16px;
+
+}
+.reverso{
+    flex-direction: row-reverse;
+}
+
+.nao-reverso{
+    flex-direction: row;
+}
+
+@media (max-width: 1200px) {
+
+    .informativeP{
+
+        width: 349px;
+        height: 181px;
+        color: #F4F4F4;
+        font-family: Kollektif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+
+    }
+
+    .informativeP span{
+        color: #F4F4F4;
+        font-family: Kollektif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .sc-avantia{
+    font-size: 30px;
+    }
+    .sc-titulo{
+        font-size: 30px;
+    }
+
+    .reverso{
+        flex-direction: column;
+
+    }
+    .nao-reverso{
+        flex-direction: column;
+    }
+
+    .servico-card img{
+        width: 200px;
+        height: 200px;
+    }
+
+
+}

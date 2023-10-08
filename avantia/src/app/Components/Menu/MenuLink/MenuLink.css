@@ -1,0 +1,44 @@
+
+.menuLink{
+
+    color: white;
+    font-family: Kollektif,serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    transition:  0.5s ease-in-out 0s;
+}
+
+
+.menuLink:hover{
+    padding: 6px;
+    width: 150px;
+}
+
+
+
+.menuLink a{
+    text-align: center;
+    color: white;
+}
+
+.menuIcon{
+    position: relative;
+    top: 2px;
+transition: opacity 0.5s ease-in-out 0s;
+}
+
+.aparecer{
+    opacity: 1;
+}
+
+.desaparecer  {
+   opacity: 0;
+}
+
+

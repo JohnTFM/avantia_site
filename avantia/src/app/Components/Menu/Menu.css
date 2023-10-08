@@ -1,0 +1,33 @@
+
+.menu{
+    width: 100%;
+    background: linear-gradient(180deg, #000 0%, #000 0.01%, #101010 100%);    display: flex;
+
+}
+.logoTypeContainer{
+
+    width: 50%;
+
+}
+.links-group{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.links-group span{
+
+    margin-right: 50px ;
+}
+@media (max-width: 1200px) {
+    .logoTypeContainer{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+ .links-group{
+     display: none;
+ }
+}

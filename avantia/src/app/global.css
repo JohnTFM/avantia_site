@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Kollektif';
+    src: url("../../public/Kollektif/Kollektif.ttf");
+
+  
+
+    font-weight: auto;
+    font-style: normal;
+}
+
+
+
+.no-decoration{
+    color: inherit;
+    text-decoration: inherit;
+
+}
+

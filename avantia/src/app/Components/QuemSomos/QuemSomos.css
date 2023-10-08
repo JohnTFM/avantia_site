@@ -1,0 +1,92 @@
+.BackGroundQmSomos{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Alinhar-Tudo{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.QuemSomos{
+    margin-top: 60px;
+    width: 572px;
+    height: 86px;
+    color: #F4F4F4;
+    font-family: Kollektif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
+
+.TextqmSom{
+    width: 611px;
+    height: 323px;
+    flex-shrink: 0;
+    color: #F4F4F4;
+    font-family: Kollektif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.alinharDoisTextos{
+    display: flex;
+    flex-direction: column;
+}
+.GloboEdit{
+    width: 500px;
+
+}
+
+@media (max-width: 1200px){
+    .BackGroundQmSomos{
+        padding-top: 40px;
+        height: 360px;
+    }
+
+
+    .alinharDoisTextos{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .Alinhar-Tudo{
+        flex-direction: row-reverse;
+        width: 380px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .TextqmSom{
+        padding-top: 50px;
+        width: 100%;
+        height: 200px;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+
+    .QuemSomos{
+        position: relative;
+        left: 115px;
+        margin: 0;
+        font-size: 30px;
+        width: 205px;
+        height: 35px;
+    }
+
+
+
+    .GloboEdit{
+        width: 205px;
+        position: relative;
+        top: 65px;
+        left: 20px;
+    }
+
+}
