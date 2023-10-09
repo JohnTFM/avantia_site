@@ -10,6 +10,10 @@ export default function RootLayout({ children }) {
 
  return (
     <html   lang="pt">
+    <head>
+        <title>Avantia Software</title>
+        <meta property={"og>:image"} content={"/imagens/globo.png"}/>
+    </head>
       <body style={{
           margin : 0,
           padding : 0

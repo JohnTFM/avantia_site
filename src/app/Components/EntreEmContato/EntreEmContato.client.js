@@ -73,7 +73,7 @@ async function enviar(e){
                 </div>
             </div>
 
-            <div   className={"centralizada-mobile2"} >
+            <div   className={"centralizada-mobile2 "} >
                 <p className={"upper-title2"}   >Contatos</p>
                 <div style={
                     {
@@ -86,40 +86,37 @@ async function enviar(e){
                 }></div>
             <div className={"redes-container"}>
                 <a className={"no-decoration"} target={"_blank"} href={`https://wa.me/63999766727?text=heelo worls`}>
-                    <span style={{
+                    <span  style={{
                         position: "relative",
                         bottom: "30px"
                     }}>(63) 99976-6727</span>
-                    <img src={"/imagens/1.svg"}/>
+                    <img className={"img-rede"} src={"/imagens/1.svg"}/>
                 </a>
                 <a className={"no-decoration"} target={"_blank"} href={"https://www.linkedin.com/company/avantia-sofware/?viewAsMember=true"}>
-                    <span style={{
+                    <span  style={{
                         position: "relative",
                         bottom: "30px"
                     }}>avantia_software</span>
-                    <img src={"/imagens/2.svg"}/>
+                    <img className={"img-rede"} src={"/imagens/2.svg"}/>
 
                 </a>
-                <a className={"no-decoration"} target={"_blank"} href={"https://www.instagram.com/avantia_software/"}>
-                    <span style={{
+                <a className={"no-decoration "} target={"_blank"} href={"https://www.instagram.com/avantia_software/"}>
+                    <span  style={{
                         position: "relative",
                         bottom: "38px"
                     }}>@avantia_software</span>
-                    <img src={"/imagens/3.svg"}/>
+                    <img className={"img-rede"} src={"/imagens/3.svg"}/>
 
                 </a>
-                <a className={"no-decoration"} target={"_blank"} href={"mailto:avantiasoftware.com"}>
-                    <span style={{
+                <a className={"no-decoration sumir-mobile"} target={"_blank"} href={"mailto:avantiasoftware.com"}>
+                    <span  style={{
                         position: "relative",
                         bottom: "48px",
                         fontSize: "18px"
                     }}>avantiasoftware@hotmail.com</span>
-                    <img src={"/imagens/4.svg"}/>
+                    <img id={"email-logo"} className={"img-rede"} src={"/imagens/4.svg"}/>
 
                 </a>
-
-
-
             </div>
 
             </div>
