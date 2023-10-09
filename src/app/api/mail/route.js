@@ -2,16 +2,31 @@ import {NextRequest, NextResponse} from "next/server";
 import nodemailer from "nodemailer";
 import NextCors from 'nextjs-cors';
 
-
+export async function OPTIONS(req){
+    return new Response(null,{
+        headers :{
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+            'Access-Control-Allow-Headers': 'Content-Type, Authorization'
+        }
+    })
+}
 export async function POST(req){
-    await NextCors(req, res, {
-        // Options
-        methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
-        origin: '*',
-        optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
-    });
-     const emailData = await req.json();
 
+
+
+    const emailData = await req.json();
+
+    if(!emailData.nome){
+        return new Response('Bad request amigao',{
+            status: 400,
+            headers:{
+                'Access-Control-Allow-Origin': '*',
+                'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+                'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+            }
+        })
+    }
 
     const transporter = nodemailer.createTransport({
         service: 'hotmail',
@@ -40,5 +55,13 @@ console.log(emailData)
 
 
 
-    return NextResponse.json({funcionando: "OK"})
+    return new Response('Hello',{
+        status: 200,
+        headers:{
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+            'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+        }
+    })
+
 }
