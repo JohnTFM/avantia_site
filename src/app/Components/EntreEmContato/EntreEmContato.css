@@ -81,9 +81,14 @@
     align-items: center;
     justify-content: space-between;
 }
-.redes-container img{
+
+
+.img-rede{
     width: 100px;
+
 }
+
+
 
 .input-contato{
 
@@ -176,7 +181,7 @@
     .centralizada-mobile2{
         align-items: center;
         justify-content: center;
-        display: none;
+
     }
     .ideia-redes-container{
         width: 380px;
@@ -184,7 +189,17 @@
         flex-direction: column;
     }
     .redes-container{
+        width: 100%;
+        height:100%;
+        align-items: stretch;
+        display: flex;
+    }
+    .img-rede{
+        width: 70px;
+    }
+    #email-logo{
 
+        position: relative;
     }
     .sumir-mobile{
         display: none;
@@ -223,7 +238,7 @@
     }
 
     .entre-em-contato-sec{
-        height: 1110px;
+        height: 1900px;
     }
 
 }

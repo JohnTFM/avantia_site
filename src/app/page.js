@@ -7,6 +7,7 @@ import EntreEmContatoClient from "@/app/Components/EntreEmContato/EntreEmContato
 
 export default function Avantia(){
     return <main>
+
         <Home></Home>
         <QuemSomos></QuemSomos>
         <NossosServicos></NossosServicos>
